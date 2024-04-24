@@ -14,11 +14,11 @@ val config = Properties()
 config.load(FileInputStream(configPropertiesFile))
 
 android {
-    namespace = "com.android.mvvm"
+    namespace = "com.android.typipagination"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.android.mvvm"
+        applicationId = "com.android.typipagination"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
