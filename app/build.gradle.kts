@@ -7,6 +7,7 @@ plugins {
     id("com.google.dagger.hilt.android")
     id("kotlin-kapt")
     id("kotlin-android")
+   id("kotlin-parcelize")
 }
 
 val configPropertiesFile: File = rootProject.file("config.properties")
